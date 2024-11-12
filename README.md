@@ -19,4 +19,15 @@ In linear search, we will find the position of two elements that sum to a taget 
 
 ♦ Binary Search:
 Binary search is a highly efficient algorithm used to find the position of a target value with in a sorted list.It operates by repeatedly dividing the seearch interval in half,making it much faster than linear search in large databases.
-➞ Start with two pointers-l
+➞ Start with two pointers-left at the beginning and right at the end of the list.
+➞ Calculate the middle index and check if the element matches the target.
+➞ If the lement matches the target, you've found the target.
+➞ If the target is less than the mid element ,narrow the search to the left half by setting right to mid-1.
+➞ If the target is greater than the middle element,narrow to the right half by setting left to mid+1.
+➞ Repeat until the target is found or low exceeds high.
+𝔗𝔦𝔪𝔢 ℭ𝔬𝔪𝔭𝔩𝔢𝔵𝔦𝔱𝔶:O(logn)
+Each comparison cuts the list size in half,making binary search logarithmic and highly efficient,especially for large lists
+NOTE:We can apply a Binary search only when the array is sorted.
+
+♦ Two pointer approach:
+Two pointer approach is an efficient algorithmic technique often used for problmrs involving sorted arrays,where you need to find the pairs in linear time O(n)
