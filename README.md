@@ -9,3 +9,11 @@ TABLE OF CONTENTS:
 • Graphs
 • Hash Tables
 • Heaps
+
+♦Linear Search:
+In linear search, we will find the position of a element present in array linearly..
+➞ Starting from the beginning of the list,check each element one at a time.
+➞ If the current element matches the target value,return the index of the target.
+➞ If it reaches the end of the array without finding the target, it returns a failure message.
+𝔗𝔦𝔪𝔢 ℭ𝔬𝔪𝔭𝔩𝔢𝔵𝔦𝔱𝔶:Linear search has a time complexity of O(n),where n is the number of elements in the list.This is because,in the worst case,it might have to check every element once(if the target is at the end or not present)
+
