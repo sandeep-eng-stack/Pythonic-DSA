@@ -10,10 +10,11 @@ TABLE OF CONTENTS:
 • Hash Tables
 • Heaps
 
-♦Linear Search:
-In linear search, we will find the position of a element present in array linearly..
-➞ Starting from the beginning of the list,check each element one at a time.
-➞ If the current element matches the target value,return the index of the target.
-➞ If it reaches the end of the array without finding the target, it returns a failure message.
-𝔗𝔦𝔪𝔢 ℭ𝔬𝔪𝔭𝔩𝔢𝔵𝔦𝔱𝔶:Linear search has a time complexity of O(n),where n is the number of elements in the list.This is because,in the worst case,it might have to check every element once(if the target is at the end or not present)
+♦ Linear Search:
+In linear search, we will find the position of two elements that sum to a taget present in array linearly..
+➞ Iterate through each element in the list using an outer loop.
+➞ For each element in the outer loop,use an inner loop to check every other element that comes after it.
+➞ If a pair of numbers adds up to target,return their indices or values.
+𝔗𝔦𝔪𝔢 ℭ𝔬𝔪𝔭𝔩𝔢𝔵𝔦𝔱𝔶:This approach has a time complexity of O(n^2),as each element is compared with every other element.
 
+♦ Binary Search:
