@@ -18,3 +18,5 @@ In linear search, we will find the position of two elements that sum to a taget 
 𝔗𝔦𝔪𝔢 ℭ𝔬𝔪𝔭𝔩𝔢𝔵𝔦𝔱𝔶:This approach has a time complexity of O(n^2),as each element is compared with every other element.
 
 ♦ Binary Search:
+Binary search is a highly efficient algorithm used to find the position of a target value with in a sorted list.It operates by repeatedly dividing the seearch interval in half,making it much faster than linear search in large databases.
+➞ Start with two pointers-l
